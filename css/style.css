@@ -25,6 +25,10 @@
     font-size: 10px;
 }
 
+header div.flex-nav p{
+    margin: 8px;
+}
+
 .flex-nav{
     background-color: #255ee9;
     padding: 6px 0;
@@ -92,4 +96,77 @@ header div.flex-nav .login{
     align-self: center;
     height: 112px;
     background-color: orange;
+}
+
+/*----------
+    FOOTER
+----------*/
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #23272a;
+    padding: 4rem 3rem 1rem 3rem;
+    column-gap: 18px;
+}
+.titolo-footer{
+    width: 70%;
+}
+
+.blue{
+    color:#6a81d2 ;
+    font-size: 10px;
+
+}
+
+li{
+    margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+    font-size: 10px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.col-first{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 120px;
+    height: 200px;
+}
+
+.col-second{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    width: 60px;
+    height: 200px;
+}
+
+.footer-logo-button{
+    display: flex;
+    background-color: #23272a;
+    align-items: flex-end;
+    margin: 8px 40px 8px 40px;
+    justify-content: space-between;
+}
+
+.end-footer{
+    background-color: #222629;
+    height: 56px;
+    padding-top: 8px;
+}
+
+hr{
+    color: #4f5d8c;
+    margin: 8px 40px 8px 40px;
+    border: 1px solid #7187d9;
 }
