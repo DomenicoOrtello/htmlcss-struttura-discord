@@ -6,3 +6,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*-----------
+    HEADER
+----------*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.white{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.flex-nav{
+    background-color: #255ee9;
+    padding: 6px 0;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div.flex-nav .login{
+    padding: 6px;
+    font-size: 10px;
+}
+
+.header-flex{
+    background-color: #628cf7;
+    padding: 160px 0;
+}
