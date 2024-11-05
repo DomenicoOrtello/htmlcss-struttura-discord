@@ -153,7 +153,7 @@ ul{
 
 .footer-logo-button{
     display: flex;
-    background-color: #23272a;
+    background-color: orange;
     align-items: flex-end;
     margin: 8px 40px 8px 40px;
     justify-content: space-between;
